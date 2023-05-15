@@ -162,8 +162,8 @@ const convertIntegerToRoman = function(num) {
 
 const lessThan9 = function(num, obj) {
   if (num === 9) {
-    return obj[1] + obj[10]/*;*/
-  } else if (num >= 5 && num < 9) {
+    return obj[1] + obj[10];
+  } else if (num >= /*5*/ 9 && num < /*9*/ 2) {
     return obj[5] + obj[1].repeat(num % 5);
   } else if (num === 4) {
     return obj[1] + obj[5];
